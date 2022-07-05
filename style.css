@@ -3,29 +3,6 @@ body {
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 }
 
-/* SECCION AGROECOLOGIA */
-
-h2 {
-    text-align: center;
-    margin: 30px 0;
-}
-
-.imagen-agroecologia {
-    /* margin-top: 50px;
-    margin-left: 2rem; */
-    border-radius: 20px;
-    box-shadow: 2px 3px 2px 2px;
-    /* margin-bottom: 10px; */
-    transition: transform 0.5s;
-}
-
-.imagen-agroecologia:hover {
-    transform: scale(1.3);
-}
-
-li {
-    margin: 12px 0;
-}
 
 /* INDEX */
 
@@ -48,6 +25,14 @@ div p {
     margin-right: 0px;
 }
 
+.hover {
+    transition: transform 0.4s;
+}
+
+.hover:hover {
+    transform: scale(1.3) translateX(10px);
+}
+
 h5 {
     text-align: center;
     font-size: 2rem;
@@ -63,12 +48,64 @@ iframe {
 
 .card {
     margin: 90px 0px;
+    transition: transform 0.4s;
+}
+
+.card:hover {
+    transform: translateX(10px);
+}
+
+/* SECCION AGROECOLOGIA */
+
+h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.imagen-agroecologia {
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px 2px;
+    transition: transform 0.5s;
+}
+
+.imagen-agroecologia:hover {
+    transform: scale(1.3);
+}
+
+li {
+    margin: 12px 0;
 }
 
 .parrafo-footer {
-    text-align: center;
-    margin-left: 80px;
+    margin-left: 5rem;
     margin-top: 50px;
-    box-shadow: 1px 2px 8px 2px;
     padding: 10px;
+    border: 2px solid black;
+}
+
+.footer {
+    justify-items: flex-end;
+}
+
+.fondo {
+    background-color: #059b9669;
+}
+
+.lista-footer li {
+    list-style: none;
+}
+
+.lista-footer li a {
+    text-decoration: none;
+    color: #752727;
+    transition: color 0.4s;
+} 
+
+.lista-footer li a:hover {
+    color: #160C1B;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 113%;
 }
