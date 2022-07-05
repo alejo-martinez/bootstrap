@@ -20,7 +20,7 @@ body {
 
 div p {
     color: black;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .container {
@@ -37,7 +37,7 @@ div p {
 }
 
 h5 {
-    text-align: center;
+    /* text-align: center; */
     font-size: 2rem;
 }
 
@@ -61,7 +61,7 @@ iframe {
 /* SECCION AGROECOLOGIA */
 
 h2 {
-    text-align: center;
+    /* text-align: center; */
     margin: 30px 0;
 }
 
@@ -112,6 +112,18 @@ li {
 }
 
 h6 {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 113%;
+}
+
+
+/* Seccion Calendarios */
+
+h2 {
+    /* text-align: center; */
+    margin: 30px 0;
+}
+
+.seccion-calendario {
+    max-width: 90%;
 }
